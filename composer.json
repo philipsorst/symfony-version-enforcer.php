@@ -1,0 +1,24 @@
+{
+    "name": "dontdrinkandroot/symfony-version-enforcer",
+    "type": "composer-plugin",
+    "description": "Enforces a specific Symfony version similar to symfony/flex",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Philip Washington Sorst",
+            "email": "philip@sorst.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dontdrinkandroot\\SymfonyVersionEnforcer\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.4",
+        "composer-plugin-api": "^2.6"
+    },
+    "require-dev": {
+        "composer/composer": "^2.8"
+    }
+}
