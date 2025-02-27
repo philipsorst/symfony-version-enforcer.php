@@ -20,5 +20,8 @@
     },
     "require-dev": {
         "composer/composer": "^2.8"
+    },
+    "extra": {
+        "class": "Dontdrinkandroot\\SymfonyVersionEnforcer\\SymfonyVersionEnforcerPlugin"
     }
 }
