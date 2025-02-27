@@ -1,7 +1,7 @@
 {
     "name": "dontdrinkandroot/symfony-version-enforcer",
     "type": "composer-plugin",
-    "description": "Enforces a specific Symfony version similar to symfony/flex",
+    "description": "Enforces a specific Symfony version similar to symfony/flex but withouth recipes.",
     "license": "Apache-2.0",
     "authors": [
         {
